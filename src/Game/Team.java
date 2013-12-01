@@ -4,9 +4,6 @@
  */
 package Game;
 
-import Game.player.Disposition;
-import Game.schema.Schema;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -25,7 +22,6 @@ public class Team {
     //serialNumber - Player
     Map<Integer,Player> teamPlayer = new HashMap<Integer,Player>();
     //Player - Disposition
-    Map<Player, Disposition> shema = new HashMap<Player, Disposition>();
     
     
     public Team() {
